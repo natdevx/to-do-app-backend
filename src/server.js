@@ -9,7 +9,7 @@ dotenv.config()
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: ["http://localhost:5173", "https://gleaming-entremet-b1556a.netlify.app"]
 }))
 
 app.use(express.json())
